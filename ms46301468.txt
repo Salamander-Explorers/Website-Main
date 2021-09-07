@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "salamander-explorers.netlify.app",
+  "Id": "19409526-02d1-4cd3-b774-b21b7e7fc860"
+}
