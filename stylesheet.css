@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800;900&display=swap');
+
 html {
     scrollbar-face-color: #525252;
     scrollbar-base-color: #ffffff00;
@@ -44,6 +45,7 @@ html {
     0% {
         transform: translateY(-200vh);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -53,6 +55,7 @@ html {
     0% {
         transform: translateY(100vh);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -62,6 +65,7 @@ html {
     0% {
         transform: translateX(-100%);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -71,6 +75,7 @@ html {
     0% {
         transform: translateX(-100vw);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -80,6 +85,7 @@ html {
     0% {
         transform: translateX(-200vw);
     }
+
     100% {
         transform: translateX(0);
     }
@@ -338,8 +344,8 @@ button:hover {
     height: fit-content;
     top: 0;
     padding-left: 1em;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: .1em;
+    padding-bottom: .1em;
     background-color: #7413dc;
     display: flex;
     flex-direction: row;
@@ -353,6 +359,7 @@ button:hover {
 
 .bottomnav img {
     margin-top: .5em;
+    margin-bottom: .5em;
     height: 2.5rem;
 }
 
@@ -380,6 +387,7 @@ button:hover {
         align-content: center;
         align-items: stretch;
     }
+
     .name {
         width: 100%;
         vertical-align: top;
@@ -399,23 +407,28 @@ button:hover {
         justify-content: space-between;
         max-width: 99%;
     }
+
     .topnav a {
         display: none;
     }
+
     .topnav a.icon {
         float: right;
         display: block;
         margin-right: 5vw;
     }
+
     .main-links {
         float: right;
         margin-left: 3em;
         width: 7em;
     }
+
     .topnav.responsive a.icon {
         right: 0;
         top: .5em;
     }
+
     .topnav.responsive a {
         display: block;
         text-align: left;
@@ -432,6 +445,7 @@ button:hover {
     body {
         font-size: 1.4rem;
     }
+
     .bottomnav a {
         margin-top: .7em;
     }
@@ -441,6 +455,7 @@ button:hover {
     body {
         font-size: 1.4rem;
     }
+
     .bottomnav a {
         margin-top: .9em;
     }
