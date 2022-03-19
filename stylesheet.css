@@ -168,6 +168,7 @@ main a:hover {
 
 .topnav .links {
     margin-right: 2em;
+    min-width: 6em;
 }
 
 .topnav img {
@@ -415,6 +416,7 @@ button:hover {
         float: right;
         display: block;
         margin-right: 5vw;
+        padding-right: 5vw;
     }
 
     .main-links {
