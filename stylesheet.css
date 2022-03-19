@@ -192,7 +192,6 @@ main a:hover {
     padding-bottom: 1em;
     margin-bottom: 0;
     animation: 1s ease-out slideInLeft;
-    min-height: 100vh;
 }
 
 .title-text {
@@ -227,7 +226,7 @@ main a:hover {
 main {
     margin-top: -1.5em;
     margin-bottom: -1.5em;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 
 strong {
@@ -358,8 +357,8 @@ button:hover {
 }
 
 .bottomnav img {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .2em;
+    margin-bottom: .2em;
     height: 2.5rem;
 }
 
@@ -375,7 +374,7 @@ button:hover {
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
-    margin-top: .5em;
+    margin-top: .2em;
     margin-left: 1em;
 }
 
