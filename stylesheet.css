@@ -105,8 +105,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h4, h5, h6 {
@@ -114,6 +114,11 @@ h4, h5, h6 {
     font-weight: 900;
     margin-bottom: .5em;
     margin-top: .5em;
+}
+
+p {
+    margin-block-start: .7em;
+    margin-block-end: .7em;
 }
 
 a {
@@ -227,7 +232,7 @@ main a:hover {
 
 main {
     margin-top: -1.5em;
-    margin-bottom: -1.5em;
+    margin-bottom: -1em;
     min-height: 50vh;
 }
 
@@ -263,6 +268,8 @@ small a:hover {
 
 ul {
     list-style-type: square;
+    margin-block-start: .7em;
+    margin-block-end: .7em;
 }
 
 li::marker {
@@ -274,41 +281,18 @@ li::marker {
     width: 77.5vw;
 }
 
-.leaders {
-    margin-bottom: 2em;
-}
-
-.person {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.person img {
-    width: 15em;
-}
-
 .person h4 {
     font-size: 3em;
     color: #000000;
 }
 
+.person h4, .person h5 {
+    margin: 0;
+}
+
 .name {
     vertical-align: middle;
-    margin-top: 4em;
-}
-
-.explorers .person img {
-    width: 12em;
-}
-
-.explorers .person h4 {
-    font-size: 2em;
-}
-
-.explorers .person h5 {
-    font-size: .8em;
+    margin-bottom: .5em;
 }
 
 button {
@@ -322,7 +306,6 @@ button {
     font: inherit;
     transition: .5s;
     border-radius: .4rem;
-    margin-bottom: 1em;
 }
 
 button:hover {
@@ -333,7 +316,7 @@ button:hover {
 .more {
     margin-left: 1em;
     background-color: #b4b4b4;
-    padding-top: 1em;
+    padding-top: .1em;
     padding-bottom: .1em;
     padding-left: 1em;
     padding-right: 1em;
@@ -396,7 +379,7 @@ button:hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1070px) {
     .title-text {
         font-size: 4em;
     }
@@ -441,19 +424,13 @@ button:hover {
     }
 }
 
-@media (max-width: 823px) {
+@media (max-width: 860px) {
     .title-text {
-        font-size: 3em;
+        font-size: 2.7em;
     }
-}
 
-@media (max-width: 660px) {
     body {
-        font-size: 1.4rem;
-    }
-
-    .bottomnav a {
-        margin-top: .7em;
+        font-size: 1.6rem;
     }
 }
 
