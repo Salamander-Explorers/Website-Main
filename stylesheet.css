@@ -141,6 +141,13 @@ main a:hover {
     color: #747272;
 }
 
+img {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 .top-space {
     height: 13em;
     width: 100%;
