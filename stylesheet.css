@@ -324,10 +324,10 @@ button:hover {
 }
 
 .bottomnav {
-    overflow: hidden;
     height: fit-content;
     top: 0;
     padding-left: 1em;
+    padding-right: 1em;
     padding-top: .1em;
     padding-bottom: .1em;
     background-color: #7413dc;
@@ -337,13 +337,51 @@ button:hover {
     animation: 1s ease-out slideInBottom;
 }
 
-.bottomnav .links {
-    margin-right: 2em;
+.bottomnav img {
+    display: block;
 }
 
-.bottomnav img {
+.bottomnav .last {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottomnav .links-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.bottomnav .first .img-slogans {
     margin-top: .2em;
+    display: flex;
+    align-items: center;
+}
+
+.bottomnav .first .img-slogans h5 {
+    margin-left: 1em;
+    color: #FFFFFF;
+}
+
+.bottomnav .first img {
     margin-bottom: .2em;
+    height: 2.5rem;
+}
+
+.bottomnav .last .imgs {
+    display: flex;
+    align-items: center;
+}
+
+.bottomnav .last .Explorers {
+    margin-right: 1em;
+    height: 1rem;
+}
+
+.bottomnav .last .CEOP {
     height: 2.5rem;
 }
 
@@ -351,11 +389,16 @@ button:hover {
     margin-top: 0em;
     margin-bottom: 0;
     color: #FFFFFF;
-    text-align: center;
     font-size: .7em;
 }
 
-.bottomnav a {
+.bottomnav p a {
+    transition: .3s;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.bottomnav h5 a {
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
@@ -421,6 +464,10 @@ button:hover {
     .topnav.responsive a {
         display: block;
         text-align: left;
+    }
+
+    .bottomnav {
+        flex-direction: column;
     }
 }
 
