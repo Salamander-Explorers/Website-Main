@@ -333,10 +333,7 @@ button:hover {
 .bottomnav {
     height: fit-content;
     top: 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: .1em;
-    padding-bottom: .1em;
+    padding: 1em;
     background-color: #7413dc;
     display: flex;
     flex-direction: row;
@@ -396,7 +393,7 @@ button:hover {
     margin-top: 0em;
     margin-bottom: 0;
     color: #FFFFFF;
-    font-size: .7em;
+    font-size: .5em;
 }
 
 .bottomnav p a {
