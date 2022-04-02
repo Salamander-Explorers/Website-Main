@@ -331,6 +331,40 @@ button:hover {
     margin-bottom: 1em;
 }
 
+.form {
+    margin-left: 1em;
+    background-color: #b4b4b4;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+    width: 50vw;
+}
+
+.form input, .form textarea, .form select {
+    width: max-content;
+    font: inherit;
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    background-color: #7413dc;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    transition: .5s;
+    border-radius: .4rem;
+}
+
+::-webkit-file-upload-button:hover {
+    background-color: #00a794;
+    cursor: pointer;
+}
+
 .bottomnav {
     height: fit-content;
     top: 0;
