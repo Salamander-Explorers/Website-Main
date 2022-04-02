@@ -172,6 +172,7 @@ img {
 
 .topnav .icon {
     display: none;
+    padding-right: 1em;
 }
 
 .topnav .icon svg {
@@ -211,7 +212,7 @@ img {
 .title-text {
     top: -1em;
     color: #FFFFFF;
-    font-size: 5em;
+    font-size: 4em;
     position: absolute;
     animation: 1s ease-out slideInLeft;
 }
@@ -426,9 +427,9 @@ button:hover {
     }
 }
 
-@media (max-width: 1070px) {
-    .title-text {
-        font-size: 4em;
+@media (max-width: 1100px) {
+    html {
+        font-size: 80%;
     }
 }
 
@@ -448,61 +449,40 @@ button:hover {
     }
 
     .topnav a.icon {
-        float: right;
         display: block;
-        margin-right: 5vw;
-        padding-right: 5vw;
-    }
-
-    .main-links {
-        float: right;
-        margin-left: 3em;
-        width: 7em;
-    }
-
-    .topnav.responsive a.icon {
-        right: 0;
-        top: .5em;
     }
 
     .topnav.responsive a {
         display: block;
-        text-align: left;
     }
 
     .bottomnav {
         flex-direction: column;
     }
+
+    .bottomnav .last {
+        align-items: flex-start;
+    }
+
+    .bottomnav h5 a:first-of-type {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 860px) {
-    .title-text {
-        font-size: 2.7em;
-    }
-
-    body {
-        font-size: 1.6rem;
-    }
-}
-
-@media (max-width: 660px) {
-    body {
-        font-size: 1.4rem;
-    }
-
-    .bottomnav a {
-        margin-top: .9em;
+    html {
+        font-size: 60%;
     }
 }
 
 @media (max-width: 650px) {
-    body {
-        font-size: 1.2rem;
+    html {
+        font-size: 50%;
     }
 }
 
-@media (max-width: 645px) {
-    body {
-        font-size: 1rem;
+@media (max-width: 420px) {
+    html {
+        font-size: 40%;
     }
 }
