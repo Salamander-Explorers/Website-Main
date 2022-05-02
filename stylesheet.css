@@ -445,6 +445,10 @@ button:hover {
     margin-left: 1em;
 }
 
+.hidden {
+    display: none;
+}
+
 @media (max-width: 1270px) {
     .person {
         display: flex;
