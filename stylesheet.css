@@ -97,6 +97,9 @@ html {
 }
 
 body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #003982;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.6rem;
