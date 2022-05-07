@@ -22,7 +22,7 @@
     }
 </script>
 
-<body onload="getRandomImage(random_images_array, 'images/bgs/')">
+<body>
     <script>
         function topnavResponsive() {
             var x = document.getElementById("topnav");
@@ -32,6 +32,8 @@
                 x.className = "topnav";
             }
         }
+
+        getRandomImage(random_images_array, 'images/bgs/')
     </script>
     <header>
         <nav class="topnav" id="topnav">
